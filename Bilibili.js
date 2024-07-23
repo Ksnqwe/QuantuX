@@ -5,7 +5,7 @@
 *******************************
 [rewrite_local]
 # > 哔哩哔哩大会员
-^https?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player.*\.(v3|v2|v1).*Play(URL|View|Conf).*$ url script-request-header biliCrack.js
+^https?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player.*\.(v3|v2|v1).*Play(URL|View|Conf).*$ url script-request-header https://raw.githubusercontent.com/Ksnqwe/QuantuX/main/Bilibili.js
 
 
 [mitm] 
