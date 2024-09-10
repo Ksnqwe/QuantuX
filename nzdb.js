@@ -1,5 +1,5 @@
 /*
-^https:\/\/srnz\.net:8701\/nz\/getUserInfo$ url script-response-body xxx.js
+^https:\/\/srnz\.net:8701\/nz\/getUserInfo$ url script-response-body https://raw.githubusercontent.com/Ksnqwe/QuantuX/main/nzdb.js
 hostname = srnz.net
  */
 
