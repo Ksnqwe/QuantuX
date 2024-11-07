@@ -1,5 +1,5 @@
 /*
-^https://api＼.qt＼.blwjpj＼.cn/wx/user/* url script-response-body https://raw.githubusercontent.com/Ksnqwe/QuantuX/main/slzs.js
+^https://api.qt.blwjpj.cn/wx/user/10979 url script-response-body https://raw.githubusercontent.com/Ksnqwe/QuantuX/main/slzs.js
 hostname = api.qt.blwjpj.cn
  */
 
