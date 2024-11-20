@@ -20,12 +20,6 @@ var body = $response.body;
 
 "sex" : "2",
 
-"inviteCode" : "UND2QPVE"
-
-"birth" : "2024",
-
-"img" : "/profile/upload/default.jpg",
-
 "userId" : 10979,
 
 "createTime" : "2024-11-06 23:19:56",
@@ -33,8 +27,6 @@ var body = $response.body;
 "remark" : null,
 
 "vipExpireTime" : "2025-11-13 23:19:56",
-
-"openId" : "onc2c64y6iJQLX1181uCkZYngcyw",
 
 "totalUser" : 10840,
 
