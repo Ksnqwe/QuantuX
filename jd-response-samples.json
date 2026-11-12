@@ -1,0 +1,846 @@
+{
+  "_source": "京东京东_171204.ipa (com.360buy.jdmobile 16.1.83) 内置真实响应体模板 + api.m.jd.com 线上真实回包",
+  "_note": "tn_floors / basicUserInfo / home_floorList 是从 IPA 的 Payload/JD4iPhone.app/*.json 原样读出；gateway_error 是 2026-11-12 直接请求 api.m.jd.com 的回包",
+  "tn_floors_USERINFO_SETTING_TN": {
+    "code": 0,
+    "floors": [
+      {
+        "data": {
+          "nodes": [
+            {
+              "functionId": "yonghuxinxi",
+              "editJumpInfo": {
+                "jumpType": 2,
+                "needLogin": 1,
+                "jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"userinfoeditpage\",\"from\":\"xxxxxx\",\"showWXDialog\":\"false\"}"
+              }
+            }
+          ],
+          "angleStyle": "0"
+        },
+        "sortId": 2,
+        "tnExt": {
+          "extInfo": {
+            "isTNNewArch": true
+          }
+        },
+        "tnConfig": {
+          "moduleName": "jdmine",
+          "templateId": "taroNative:taroNativeSpace@jdmine@jdmine_setting_head@15.6.0",
+          "pageName": "jdusermanager",
+          "url": "https://storage.jd.com/mpaas2-public/product/175762113/jdmine_setting_head/taroNative-jdmine_setting_head-20260304200751439.zip",
+          "md5": "590cec09ac8e7802dba3f82cdd5d0745"
+        },
+        "mId": "marketTNFloorNew",
+        "refId": "TN_settingsUserInfo_1",
+        "bId": "TN_settingsUserInfo_flo_648"
+      },
+      {
+        "data": {
+          "nodes": [
+            {
+              "functionId": "tongyong",
+              "title": {
+                "color": "#2e2e2e",
+                "value": "通用设置"
+              },
+              "titleStyle": "default",
+              "jumpStyle": 1,
+              "jumpInfo": {
+                "jumpType": 2,
+                "jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"generalSettingPage\",\"downgradeUrl\":\"openapp.jdmobile://virtual?params={\\\"category\\\":\\\"jump\\\",\\\"des\\\":\\\"jdreactcommon\\\",\\\"modulename\\\":\\\"JDReactGeneralPage\\\",\\\"appname\\\":\\\"JDReactGeneralPage\\\",\\\"styleVersion\\\":\\\"1\\\",\\\"ishidden\\\":true}\"}",
+                "needLogin": 0
+              }
+            },
+            {
+              "functionId": "switchMode",
+              "title": {
+                "color": "#2e2e2e",
+                "value": "模式切换"
+              },
+              "titleStyle": "default",
+              "jumpStyle": 1,
+              "jumpInfo": {
+                "jumpType": 4,
+                "needLogin": 0,
+                "jumpUrl": "router://JDMyJdModule/showModeSwitchPage"
+              }
+            }
+          ],
+          "angleStyle": "0",
+          "title": {
+            "color": "#ffffff",
+            "value": "功能设置"
+          }
+        },
+        "sortId": 5,
+        "tnExt": {
+          "extInfo": {
+            "isTNNewArch": true
+          }
+        },
+        "tnConfig": {
+          "moduleName": "jdmine",
+          "templateId": "taroNative:taroNativeSpace@jdmine@jdmine_setting_menu@15.14.0",
+          "pageName": "jdusermanager",
+          "url": "https://storage.jd.com/mpaas2-public/product/138320070/jdmine_setting_menu/taroNative-jdmine_setting_menu-20261028143606647.zip",
+          "md5": "abbe8cb6108af455c5964e77c41cd3a7"
+        },
+        "mId": "marketTNFloorNew",
+        "refId": "TN_settingsFloors_1390",
+        "bId": "TN_settingsFloors_flo_1390"
+      },
+      {
+        "data": {
+          "nodes": [
+            {
+              "functionId": "gongnengfankui",
+              "title": {
+                "color": "#2e2e2e",
+                "value": "功能反馈"
+              },
+              "titleStyle": "default",
+              "jumpStyle": 1,
+              "jumpInfo": {
+                "jumpType": 4,
+                "jumpUrl": "router://JDMyJdModule/showFeedbackPage?source=1&from=shezhi",
+                "needLogin": 0
+              }
+            },
+            {
+              "functionId": "guanyu",
+              "title": {
+                "color": "#2e2e2e",
+                "value": "关于京东APP"
+              },
+              "titleStyle": "default",
+              "jumpStyle": 1,
+              "jumpInfo": {
+                "jumpType": 4,
+                "jumpUrl": "router://JDMyJdModule/showAboutPage?title=关于京东APP",
+                "needLogin": 0
+              }
+            }
+          ],
+          "angleStyle": "0",
+          "title": {
+            "color": "#ffffff",
+            "value": "关于京东"
+          }
+        },
+        "sortId": 6,
+        "tnExt": {
+          "extInfo": {
+            "isTNNewArch": true
+          }
+        },
+        "tnConfig": {
+          "moduleName": "jdmine",
+          "templateId": "taroNative:taroNativeSpace@jdmine@jdmine_setting_menu@15.14.0",
+          "pageName": "jdusermanager",
+          "url": "https://storage.jd.com/mpaas2-public/product/138320070/jdmine_setting_menu/taroNative-jdmine_setting_menu-20261028143606647.zip",
+          "md5": "abbe8cb6108af455c5964e77c41cd3a7"
+        },
+        "mId": "marketTNFloorNew",
+        "refId": "TN_settingsFloors_3",
+        "bId": "TN_settingsFloors_flo_651"
+      },
+      {
+        "data": {
+          "nodes": [
+            {
+              "functionId": "logOut",
+              "title": {
+                "color": "#2e2e2e",
+                "value": "退出登录"
+              },
+              "titleStyle": "center",
+              "jumpStyle": 0,
+              "jumpInfo": {
+                "jumpType": 2,
+                "needLogin": 1,
+                "jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"userSwitch\",\"from\":\"myjd\",\"to\":\"openapp.jdmobile://virtual?params={\\\"category\\\":\\\"jump\\\",\\\"des\\\":\\\"myJd\\\"}\",\"needRefreshMode\":\"1\"}"
+              }
+            }
+          ],
+          "angleStyle": "0"
+        },
+        "sortId": 8,
+        "tnExt": {
+          "extInfo": {
+            "isTNNewArch": true
+          }
+        },
+        "tnConfig": {
+          "moduleName": "jdmine",
+          "templateId": "taroNative:taroNativeSpace@jdmine@jdmine_setting_menu@15.14.0",
+          "pageName": "jdusermanager",
+          "url": "https://storage.jd.com/mpaas2-public/product/138320070/jdmine_setting_menu/taroNative-jdmine_setting_menu-20261028143606647.zip",
+          "md5": "abbe8cb6108af455c5964e77c41cd3a7"
+        },
+        "mId": "marketTNFloorNew",
+        "refId": "TN_settingsFloors_5",
+        "bId": "TN_settingsFloors_flo_652"
+      }
+    ],
+    "others": {}
+  },
+  "tn_floors_USERINFO_SETTING_WM": {
+    "code": 0,
+    "floors": [
+      {
+        "data": {
+          "nodes": [
+            {
+              "functionId": "yonghuxinxi",
+              "editJumpInfo": {
+                "jumpType": 2,
+                "needLogin": 1,
+                "jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"userinfoeditpage\",\"from\":\"xxxxxx\",\"showWXDialog\":\"false\"}"
+              }
+            }
+          ],
+          "angleStyle": "0"
+        },
+        "sortId": 2,
+        "tnExt": {
+          "extInfo": {
+            "isTNNewArch": true
+          }
+        },
+        "tnConfig": {
+          "moduleName": "jdmine",
+          "templateId": "taroNative:taroNativeSpace@jdmine@jdmine_setting_head@15.6.0",
+          "pageName": "jdusermanager",
+          "url": "https://storage.jd.com/mpaas2-public/product/175762113/jdmine_setting_head/taroNative-jdmine_setting_head-20260304200751439.zip",
+          "md5": "590cec09ac8e7802dba3f82cdd5d0745"
+        },
+        "mId": "marketTNFloorNew",
+        "refId": "TN_settingsUserInfo_1",
+        "bId": "TN_settingsUserInfo_flo_648"
+      },
+      {
+        "data": {
+          "nodes": [
+            {
+              "functionId": "guanyu",
+              "title": {
+                "color": "#2e2e2e",
+                "value": "关于"
+              },
+              "titleStyle": "default",
+              "jumpStyle": 1,
+              "jumpInfo": {
+                "jumpType": 4,
+                "jumpUrl": "router://JDMyJdModule/showAboutPage?title=关于",
+                "needLogin": 0
+              }
+            }
+          ],
+          "angleStyle": "0",
+          "title": {
+            "color": "#ffffff",
+            "value": "关于"
+          }
+        },
+        "sortId": 6,
+        "tnExt": {
+          "extInfo": {
+            "isTNNewArch": true
+          }
+        },
+        "tnConfig": {
+          "moduleName": "jdmine",
+          "templateId": "taroNative:taroNativeSpace@jdmine@jdmine_setting_menu@15.14.0",
+          "pageName": "jdusermanager",
+          "url": "https://storage.jd.com/mpaas2-public/product/138320070/jdmine_setting_menu/taroNative-jdmine_setting_menu-20261028143606647.zip",
+          "md5": "abbe8cb6108af455c5964e77c41cd3a7"
+        },
+        "mId": "marketTNFloorNew",
+        "refId": "TN_settingsFloors_3",
+        "bId": "TN_settingsFloors_flo_651"
+      },
+      {
+        "data": {
+          "nodes": [
+            {
+              "functionId": "logOut",
+              "title": {
+                "color": "#2e2e2e",
+                "value": "退出登录"
+              },
+              "titleStyle": "center",
+              "jumpStyle": 0,
+              "jumpInfo": {
+                "jumpType": 2,
+                "needLogin": 1,
+                "jumpUrl": "openapp.jdmobile://virtual?params={\"category\":\"jump\",\"des\":\"userSwitch\",\"from\":\"myjd\",\"to\":\"openapp.jdmobile://virtual?params={\\\"category\\\":\\\"jump\\\",\\\"des\\\":\\\"myJd\\\"}\",\"needRefreshMode\":\"1\"}"
+              }
+            }
+          ],
+          "angleStyle": "0"
+        },
+        "sortId": 8,
+        "tnExt": {
+          "extInfo": {
+            "isTNNewArch": true
+          }
+        },
+        "tnConfig": {
+          "moduleName": "jdmine",
+          "templateId": "taroNative:taroNativeSpace@jdmine@jdmine_setting_menu@15.14.0",
+          "pageName": "jdusermanager",
+          "url": "https://storage.jd.com/mpaas2-public/product/138320070/jdmine_setting_menu/taroNative-jdmine_setting_menu-20261028143606647.zip",
+          "md5": "abbe8cb6108af455c5964e77c41cd3a7"
+        },
+        "mId": "marketTNFloorNew",
+        "refId": "TN_settingsFloors_5",
+        "bId": "TN_settingsFloors_flo_652"
+      }
+    ],
+    "others": {}
+  },
+  "basicUserInfo_myjd_person_Info": {
+    "code": "0",
+    "basicUserInfo": [
+      {
+        "functionId": "faceInfo",
+        "arrow": "http://img30.360buyimg.com/jdmonitor/jfs/t1/31154/17/17439/243/6311c5b5Ecd685491/389d373ae4f1acb2.png",
+        "title": "头像",
+        "content": ""
+      },
+      {
+        "functionId": "nameInfo",
+        "arrow": "",
+        "title": "账号名",
+        "content": ""
+      },
+      {
+        "functionId": "nickNameInfo",
+        "arrow": "http://img30.360buyimg.com/jdmonitor/jfs/t1/31154/17/17439/243/6311c5b5Ecd685491/389d373ae4f1acb2.png",
+        "title": "昵称",
+        "content": ""
+      }
+    ]
+  },
+  "home_floorList_goodPrice": {
+    "msg": "success",
+    "multiTopTabNewStyle": false,
+    "activityId": "01792314",
+    "transParam": "{\"bsessionId\":\"aedc6d4f-5268-4166-a839-a84f985f20a5\",\"babelChannel\":\"ttt94\",\"actId\":\"01817395\",\"enActId\":\"2LcucMHYX7aXz92Qh7JBHBo6DACH\",\"pageId\":\"5792541\",\"encryptCouponFlag\":\"1\",\"requestChannel\":\"app\",\"jdAtHomePage\":\"0\",\"utmFlag\":\"0\",\"locType\":\"1\",\"globalTouchstoneResult\":{\"touchstoneResult\":{\"feed_sku_return\":false,\"similar_recommend\":false,\"after_click_purchase\":false,\"busi_model_jingxi_zy\":false,\"sku_top_just_visited\":true,\"sell_point_style\":false,\"busi_model_zy\":false},\"extParams\":{\"feed_sku_return\":{}},\"labels\":{\"feed_sku_return\":\"defult\"},\"labelParams\":{}},\"overrideProductId\":\"a0126\"}",
+    "channelPoint": {
+      "babelChannel": "",
+      "greytp": "1",
+      "rec_broker": "",
+      "encodeActivityId": "pY6HUWjf8MtDeg6g6gNNRjihUPe",
+      "loginCellularNetwork": 0,
+      "pageId": "5283396"
+    },
+    "floorList": [
+      {
+        "template": "ipaas_community_template",
+        "srvDataMap": {
+          "Babel_dev_other_tjtj_hookFloorCoupon": {
+            "spm": "a0126.Babel_01817395.Babel1_127911794.hookFloorCoupon",
+            "page_id": "01817395",
+            "event_id": "Babel_dev_other_tjtj_hookFloorCoupon",
+            "_eventType": "0",
+            "biz_type": "",
+            "template_style_id": "00040333",
+            "_standard": "1",
+            "_posType": "0",
+            "original_spma": "a0126"
+          },
+          "Babel_dev_expo_other_tjtj_hookFloor": {
+            "spm": "a0126.Babel_01817395.Babel1_127911794.hookFloor",
+            "page_id": "01817395",
+            "event_id": "Babel_dev_expo_other_tjtj_hookFloor",
+            "_eventType": "0",
+            "biz_type": "",
+            "template_style_id": "00040333",
+            "_standard": "1",
+            "_posType": "0",
+            "original_spma": "a0126"
+          },
+          "Babel_dev_expo_sku_tjtj_hookFloor": {
+            "spm": "a0126.Babel_01817395.Babel1_127911794_0.",
+            "page_id": "01817395",
+            "event_id": "Babel_dev_expo_sku_tjtj_hookFloor",
+            "_eventType": "0",
+            "biz_type": "",
+            "template_style_id": "00040333",
+            "_standard": "1",
+            "_posType": "1",
+            "original_spma": "a0126"
+          },
+          "Babel_dev_expo_other_tjtj_hookFloorCoupon": {
+            "spm": "a0126.Babel_01817395.Babel1_127911794.hookFloorCoupon",
+            "page_id": "01817395",
+            "event_id": "Babel_dev_expo_other_tjtj_hookFloorCoupon",
+            "_eventType": "0",
+            "biz_type": "",
+            "template_style_id": "00040333",
+            "_standard": "1",
+            "_posType": "0",
+            "original_spma": "a0126"
+          },
+          "Babel_dev_other_tjtj_hookFloor": {
+            "spm": "a0126.Babel_01817395.Babel1_127911794.hookFloor",
+            "page_id": "01817395",
+            "event_id": "Babel_dev_other_tjtj_hookFloor",
+            "_eventType": "0",
+            "biz_type": "",
+            "template_style_id": "00040333",
+            "_standard": "1",
+            "_posType": "0",
+            "original_spma": "a0126"
+          },
+          "Babel_dev_sku_tjtj_hookFloor": {
+            "spm": "a0126.Babel_01817395.Babel1_127911794_0.",
+            "page_id": "01817395",
+            "event_id": "Babel_dev_sku_tjtj_hookFloor",
+            "_eventType": "0",
+            "biz_type": "",
+            "template_style_id": "00040333",
+            "_standard": "1",
+            "_posType": "1",
+            "original_spma": "a0126"
+          }
+        },
+        "useInstance": true,
+        "attributeConfig": "{\"supportCou\":\"0\",\"ssr\":\"0\",\"innerAnchor\":\"0\",\"pageFloat\":\"0\",\"tipsFloat\":\"0\",\"iconFloat\":\"0\",\"allowFilter\":\"0\",\"isImmersive\":\"0\",\"isTaro\":0,\"isCoupon\":\"0\"}",
+        "floorNum": "1",
+        "styleId": "00040333",
+        "ofn": "8",
+        "activeVersionId": "v20260202182501",
+        "identityId": "420217767720465758",
+        "bizId": "2",
+        "bizData": {
+          "providerData": {
+            "homeUmcCouponInfo": null,
+            "floorType": 1,
+            "source": 4,
+            "hookFloorJumpUrl": "https://pro.m.jd.com/mall/active/4Bzi2uG1GZRPNQiUaCmQYNVPGdwX/index.html",
+            "homeAdvCouponInfo": null,
+            "productInfo": {
+              "skuList": [
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/420193/2/17766/22177/69e88a92F57f8376b/00ae1e01e05a255c.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 5,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "5187607"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t20280423/278212/1/27077/34443/6809aae5Fef1607cc/87f7f5f856a45ead.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 5,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "10827367585"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/306546/17/7641/186110/683ed4afF1d2e244f/eb5d07ef8e9f30af.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 5,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "100070673249"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/230894/31/35094/37491/67bed11cF2aa3a0c6/238bd15bfb2b6a13.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 5,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "100094853888"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/410079/20/3966/61563/69c79be4F6cd62c70/0276320320119db1.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "10104660526750"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/390502/22/15144/61347/6982d9bcF7c6fc5fa/0083320320a88db1.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "10210770232031"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/423871/5/19189/120170/69f2ca96F6865b939/00833203207bfdcf.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "100313980392"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/380610/30/16638/77375/6953adefFf83826b6/e6f57793025ec971.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "10133374238253"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/429892/14/8646/23691/69fc0f41F503c8db7/0083320320d7f89a.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "10216351693658"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t20290108/378753/30/23742/31384/695fd778F87edf219/00ae1e01e0d92f2e.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "100109880346"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/403013/20/6909/38469/69b3a66eF866768d7/0083320320eb87f2.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "10206279516513"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/159469/23/52708/77142/673c249cFbf1177b1/577ea40b95b6c948.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "100146315728"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/423807/27/18452/118205/69f2c7ffF5772ee8a/0083320320dce9c3.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "100165413675"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/395770/34/3359/58059/69893af9F9de5f662/00ae1e01e0130cc2.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "100313980412"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/242201/29/33933/26638/68ea1209Fe10b3bb4/5377087e69ec958c.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "100012944427"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t1/429956/6/17503/82627/6a0325a1F01bcc9a2/0083320320a2ab31.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "10221417068163"
+                },
+                {
+                  "skuImg": "https://m.360buyimg.com/mobile/jfs/t20290401/412616/2/8827/86811/69cdb142F2a1a61e6/08ee2b92b98e6e29.jpg",
+                  "trackParam": null,
+                  "price": "",
+                  "labelType": "1",
+                  "recomInfo": null,
+                  "source": 6,
+                  "label": "",
+                  "pricePrefix": "",
+                  "skuId": "10210770295502"
+                }
+              ],
+              "source": null,
+              "class": "com.jd.bargain.facade.domain.home.HomeHookProductInfo"
+            },
+            "pin": null,
+            "requestId": "10108102583-125403-1779118315818",
+            "loggedIn": true,
+            "homeKylinCouponInfo": null,
+            "showLoadMoreUrl": null,
+            "previewCompInfo": null,
+            "gwcCoupon": null,
+            "currDate": 1779118316168,
+            "class": "com.jd.bargain.facade.domain.home.HomeHookFloor"
+          },
+          "boardParams": {
+            "couponSource": "2",
+            "productGroupId": "23696977",
+            "hookPriceColor": "#FF0F23",
+            "floorType": "1",
+            "androidViewClass": "com.jingdong.app.mall.bundle.goodprice.hooked.HookedProductFloorView",
+            "hookNoCouponSubTitleTxtColor": "#1A1A1A",
+            "couponShowLoadMore": "0",
+            "hookLeftRightPriceSize": 30,
+            "showBottomRoundedCorner": "1",
+            "hook_sub_InterestPointsBgColor": "#FF3C57",
+            "hookInterestPointsBgColor": "#FFF7DD",
+            "kylinActivityId": "BP-20250427-0002",
+            "hookMainTitleImgHeight": 46,
+            "couponProductGroupId": "24844426",
+            "iOSDataModel": "TTTLeadProductFloorModel",
+            "hookFloorBgColor": "#ffffff",
+            "floorRightPadding": "24",
+            "iOSViewProtocolClass": "TTTLeadProductFloorLayoutDelegate",
+            "hookSubTitleTxt": "更多",
+            "hookNoCouponSubTitleTxtSize": 30,
+            "hook_sub_MainTitleTxt": "3.9-3",
+            "salesVolumeLabel": "1",
+            "androidDataModel": "com.jingdong.app.mall.bundle.goodprice.entity.HookedProductFloorModel",
+            "mainTitleImgHeigh": 46,
+            "subscribeShowLoadMoreUrl": "",
+            "hook_sub_MainTitleImgUrl": "https://m.360buyimg.com/babel/jfs/t1/419317/22/6387/3551/69dda3deF89387c1c/015311802e69b122.png",
+            "hook_sub_ProductGroupId": "23696977",
+            "hookNoCouponFloorJumpUrl": "https://pro.m.jd.com/mall/active/4Bzi2uG1GZRPNQiUaCmQYNVPGdwX/index.html",
+            "couponDeductionLabelTxt": "已减%s元",
+            "hookProductInteractionStyle": "1",
+            "hookCouponActivityPageJumpUrl": "",
+            "hookNoCouponMainTitleImgUrl": "https://m.360buyimg.com/babel/jfs/t1/334629/19/16723/3629/68d4edd4Febaf988e/1a30a58fabcf8d2e.png",
+            "floorTopPadding": "0",
+            "frontPriceTxtNoCoupon": "",
+            "umcTitleAdvGroupId": "08250031",
+            "hook_sub_SubTitleTxtColor": "#000000",
+            "hook_sub_couponFloorShow": "1",
+            "hook_sub_UnclaimedCouponImgUrl": "https://m.360buyimg.com/babel/jfs/t1/339418/12/1797/18409/68ad2301F2b7e8f97/11b50e4513d637a4.png",
+            "lowPriceLabel": "1",
+            "noCouponShowLoadMore": "0",
+            "hook_sub_MainTitleImgHeight": 46,
+            "hookMainTitleTxt": "3.9-3",
+            "hookInterestPointsTxtColor": "#6A3F26",
+            "hook_sub_InterestPointsTxtColor": "#FFFFFF",
+            "floorLeftPadding": "24",
+            "hookClaimedCouponImgUrl": "https://m.360buyimg.com/babel/jfs/t1/312225/5/10901/112088/004f2301F3c07bb02/29e762fa1f900d74.gif",
+            "subscribeShowLoadMore": "0",
+            "hookShowLoadMoreUrl": "https://pro.m.jd.com/mall/active/4Bzi2uG1GZRPNQiUaCmQYNVPGdwX/index.html",
+            "hook_sub_SubTitleTxt": "更多低至1元",
+            "hookNoCouponMainTitleTxt": "天天有特价",
+            "showTopRoundedCorner": "1",
+            "hook_sub_ClaimedCouponImgUrl": "https://m.360buyimg.com/babel/jfs/t1/323371/22/10978/18409/68ad2307Fd68af25a/da584287f1cdeea4.png",
+            "hookShowProductNum": 15,
+            "mainTitleImgWidth": 280,
+            "hookNoCouponSubTitleTxt": "更多",
+            "bgColor": "#FFFFFF,#F5F6FA",
+            "hookCouponUsageInfo": "",
+            "hookNoCouponMainTitleImgHeight": 48,
+            "hookNoCouponMainTitleImgWidth": 277,
+            "hookSubTitleTxtColor": "#1A1A1A",
+            "hook_sub_FloorJumpUrl": "https://pro.m.jd.com/mall/active/2iUAkTCrU1aHz5wYvJ3BD49kdLdu/index.html",
+            "hookMainTitleImgWidth": 280,
+            "hookPriceSize": 39,
+            "imgType": "1",
+            "hook_sub_MainTitleImgWidth": 280,
+            "reducedLabel": "1",
+            "floorBottomPadding": "0",
+            "couponAdvGroupId": "08084724",
+            "hookSubTitleTxtSize": 30,
+            "hook_sub_CouponReservePositionNum": "1",
+            "couponShowLoadMoreUrl": "",
+            "hookFloorJumpUrl": "https://pro.m.jd.com/mall/active/2iUAkTCrU1aHz5wYvJ3BD49kdLdu/index.html",
+            "hookUnclaimedCouponImgUrl": "https://m.360buyimg.com/babel/jfs/t1/303865/39/12059/112088/004f2301F98a0ad5d/1a7ae4cf9c44c3ac.gif",
+            "umcContact": "pdy.tjtab.gouzipinlouceng",
+            "hookShowLoadMore": "1",
+            "frontPriceTxtHaveCoupon": "券后",
+            "salesVolumeLabelTxt": "热卖%s",
+            "hookInterestPointsTxtSize": 30,
+            "labelOrder": "2,4,1,3,5",
+            "noCouponShowLoadMoreUrl": "",
+            "reducedLabelTxt": "直降%s元",
+            "hookLeftRightPriceColor": "#FF0F23",
+            "backupLabel": "限量抢购",
+            "umcShowBiCoupon": "1",
+            "hookSubSubTitleTxtSize": 30,
+            "couponDeductionLabel": "1",
+            "hookMainTitleImgUrl": "https://m.360buyimg.com/babel/jfs/t1/415996/16/13046/3551/69dda3ceF6ebc47e5/015311802e645703.png"
+          }
+        },
+        "srvPlanConfig": "[{\"clickEventId\":\"Babel_dev_other_tjtj_hookFloor\",\"oldFlag\":1,\"expoEventId\":\"Babel_dev_expo_other_tjtj_hookFloor\",\"srvPlanId\":532},{\"clickEventId\":\"Babel_dev_sku_tjtj_hookFloor\",\"oldFlag\":1,\"expoEventId\":\"Babel_dev_expo_sku_tjtj_hookFloor\",\"srvPlanId\":534},{\"clickEventId\":\"Babel_dev_other_tjtj_hookFloorCoupon\",\"oldFlag\":1,\"expoEventId\":\"Babel_dev_expo_other_tjtj_hookFloorCoupon\",\"srvPlanId\":884}]",
+        "id": 127911794,
+        "moduleId": 127911794
+      },
+      {
+        "template": "feeds",
+        "cardMargin": 21,
+        "bgSameColor": "0",
+        "feedsStaggeredSwitch": 1,
+        "tabConfig": {
+          "tabBgColor": "#F5F6FA",
+          "color": "#FF0F23",
+          "unSelectColor": "#2E2E2E",
+          "subTabCfg": {
+            "tabBgColor": "#FFFFFF",
+            "color": "#000000",
+            "unSelectColor": "#666666"
+          },
+          "tabStyle": "0"
+        },
+        "floorNum": "2",
+        "leftRightMargin": 24,
+        "tabList": [
+          {
+            "labelId": "8768269610618",
+            "isRecommendTab": "1",
+            "srv": "{\"ford1\":\"1\",\"tab_name\":\"推荐\",\"mid\":\"112261929\",\"ftid1\":\"1\",\"tabord\":\"1\",\"aid\":\"01792314\",\"tid\":\"1\"}",
+            "name": "推荐",
+            "activePicUrl": "",
+            "width": "0",
+            "defaultPicUrl": "",
+            "secondTabList": [
+              {
+                "isRecommendTab": "1",
+                "feedsFirstTabUseCache": false,
+                "secondTabId": "1"
+              }
+            ],
+            "height": "0"
+          }
+        ],
+        "distanceAngle": {
+          "lRPadding": 24,
+          "cardRadius1": 24,
+          "cardRadius0": 24,
+          "tabRadius0": 24,
+          "tabRadius1": 24,
+          "cardRadius3": 24,
+          "tabRadius2": 24,
+          "cardRadius2": 24,
+          "tabRadius3": 24,
+          "cardPadding": 21
+        },
+        "ofn": "4",
+        "identityId": "925017331326287764",
+        "disableScroll": "1",
+        "clickNum": 0,
+        "id": 112261929,
+        "moduleId": 112261929
+      }
+    ],
+    "item": "0",
+    "currentRequestTimestamp": 1779118321140,
+    "paginationParams": [],
+    "pageSrvInfo": null,
+    "pageId": "5283396",
+    "visReState": {
+      "matGrpN": 2,
+      "matReN": 0
+    },
+    "spm": "a0126.Babel_01817395",
+    "hasIdentification": "1",
+    "pageSrvData": "{\"touchstone_expids\":[\"tsabtest|base64|YmFiZWxfMTkxNjUxfGJhc2U|tsabtest\"],\"request_id\":[\"10108102725-137127-1779118320790\"]}",
+    "isTabPVNewLogic": true,
+    "floatLayerList": [],
+    "paginationFlrs": "null",
+    "isDegraded": false,
+    "paginationParamEnd": "",
+    "utmChannel": "",
+    "code": "0",
+    "pagination": false,
+    "head": {
+      "nameType": "0"
+    },
+    "isLogin": false,
+    "subCode": "0",
+    "requestId": "10108102725-137127-1779118320790",
+    "hasImmersiveIhubFlr": "0",
+    "jdAtHomePageLackAddress": "0",
+    "h5IsSupportPullDown": 1,
+    "biimpr": "01792314_5283396",
+    "channelId": "1183",
+    "backgroundColor": "#f5f6fa",
+    "gridInfo": "",
+    "monitor": {
+      "gifMemorySwitch": 1,
+      "gifMemoryPercent": 75
+    },
+    "returnMsg": "success",
+    "hasPerData": "0",
+    "isPvUseSpm": "1",
+    "utmFlag": "0",
+    "debugFlag": 0,
+    "repFloorGr": null,
+    "useNewLayout": true
+  },
+  "gateway_error_responses": [
+    {
+      "code": "1",
+      "echo": "required string parameter 'appid' is not present"
+    },
+    {
+      "code": "1",
+      "echo": "cross-origin request from '' is not allowed"
+    },
+    {
+      "code": "1",
+      "echo": "no access"
+    },
+    {
+      "code": "1",
+      "echo": "no access"
+    },
+    {
+      "code": "1",
+      "echo": "cross-origin request from '' is not allowed"
+    }
+  ]
+}

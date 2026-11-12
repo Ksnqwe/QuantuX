@@ -1,0 +1,7 @@
+#!name = 京东净化
+#!author = Ksnqwe
+#!update = 2026-11-12
+#!desc = 去除开屏广告、优化我的页面、去除底部会员tab、优化首页展示、去除搜索热词
+^https:\/\/api\.m\.jd\.com\/(?:client\.action|api)(?:\?.*)?$ url script-response-body https://raw.githubusercontent.com/Ksnqwe/QuantuX/main/jd-ad-clean.js
+
+hostname = api.m.jd.com
